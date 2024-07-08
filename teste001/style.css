@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+body{
+    background-image: linear-gradient(yellow,red);
+}
