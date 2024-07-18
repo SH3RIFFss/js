@@ -1,10 +1,18 @@
-
-function somar() {
-   const inp1=document.querySelector('#inp1')
-   const inp2=document.querySelector('#inp2')
-   const res=document.querySelector('#res')
-   let n1=Number(inp1.value)
-   let n2=Number(inp2.value)
-   let sum=n1+n2
-   res.innerHTML=`o resultado da soma entre ${n1} e ${n2} é representada por ${sum} `
+function verificar_naci() {
+   const txtvel = document.querySelector('#inpVel');
+   const res = document.querySelector('#res');
+   let naci = txtvel.value
+   if (naci == "brasil") {
+      res.innerHTML = '<p>opa <strong>br</strong> é nois toma um cupom de 40% de desconto</p>'
+   } else if (naci == "russia") {
+      res.innerHTML = '<p>para a população russa o desconto é de 30%</p>'
+   } else if (naci == "india") {
+      res.innerHTML = '<p>para a população indiana o desconto é de 30%</p>'
+   } else if (naci == "china") {
+      res.innerHTML = '<p>para a população chinesa o desconto é de 30%</p>'
+   } else if (naci == "south africa") {
+      res.innerHTML = '<p>para a população sul-africana o desconto é de 30%</p>'
+   } else {
+      res.innerHTML = '<p>pra gringo é mais caro</p>'
+   }
 }
