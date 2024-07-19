@@ -16,3 +16,9 @@ function verificar_naci() {
       res.innerHTML = '<p>pra gringo é mais caro</p>'
    }
 }
+function teste(){
+   const num=document.querySelector("#numtest")
+   const restest=document.querySelector("#restest")
+   let value_num=num.getAttribute('value_num')
+   console.log(value_num)
+}
