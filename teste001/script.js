@@ -1,7 +1,7 @@
 function verificar_naci() {
-   const txtvel = document.querySelector('#inpVel');
+   const txtvel = document.querySelector('#inpVel') ;
    const res = document.querySelector('#res');
-   let naci = txtvel.value
+   let naci = txtvel.value.toLowerCase()
    if (naci == "brasil") {
       res.innerHTML = '<p>opa <strong>br</strong> é nois toma um cupom de 40% de desconto</p>'
    } else if (naci == "russia") {

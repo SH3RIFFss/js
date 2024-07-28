@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+main {
+    padding: 5px;
+}
+
+#container {
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0000008e;
+}
+
+#hrsImg {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #00000080;
+}
